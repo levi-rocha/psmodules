@@ -1,3 +1,5 @@
+require colortool
+
 function paint {
 	colortool -q onehalfdark
 	colortool -q campbell

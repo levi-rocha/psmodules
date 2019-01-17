@@ -1,3 +1,5 @@
+require git.install
+
 function gb { git symbolic-ref --short HEAD }
 function gs {
 	git status
