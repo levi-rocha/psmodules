@@ -1,7 +1,7 @@
 $ps_modules = 'D:\cs\ps-modules\'
 
 # easier way to import modules
-function import { Import-Module ($ps_modules + $args[0] + '.psm1') }
+function import { Import-Module ($ps_modules + 'l_' + $args[0] + '.psm1') }
 
 # shortcut for editing the profile
 function prof { vim ($pshome + '\profile.ps1') }

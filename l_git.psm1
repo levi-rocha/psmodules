@@ -23,3 +23,4 @@ function glog {
 function gaa { git add . }
 function gmm { git commit -m $args[0] }
 function lastcommit { log | select -first 1 | %{$_.split('-')[0]} | %{$_.substring(2)} }
+function gpu { git push }

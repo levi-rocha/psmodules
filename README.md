@@ -10,5 +10,5 @@ $ps_modules_home = 'YOUR_PSMODULES_REPO_PATH'
 
 - The import function will now be available. Use it to load whatever modules you want (still in your Profile.ps1):
 ```powershell
-import 'l_git'
+import git
 ```
